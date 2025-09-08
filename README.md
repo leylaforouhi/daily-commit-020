@@ -1,6 +1,6 @@
 
 def greet_user(name):
-    from datetime import datetim
+    from datetime import datetime
     hour = datetime.now().hour
     if hour < 12:
         greeting = "Good morning"
